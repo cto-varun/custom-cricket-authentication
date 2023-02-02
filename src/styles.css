@@ -1,0 +1,225 @@
+.mb {
+    margin-bottom: 22px;
+}
+
+.fixed-top {
+    position: relative;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+
+.search-container {
+    height: 48px;
+    background-color: #60a630;
+    display: flex;
+    align-items: center;
+    padding-left: 19px;
+    padding-right: 30px;
+}
+
+.search-container__input {
+    flex: 5;
+}
+
+.search-container__input .ant-input-affix-wrapper {
+    background-color: transparent;
+    border: 0;
+    color: white;
+}
+
+.search-container__input .ant-input-prefix {
+    margin-right: 12px;
+}
+
+.search-container__input .ant-input-affix-wrapper:focus,
+.search-container__input .ant-input-affix-wrapper:hover {
+    border: 0;
+    box-shadow: none;
+}
+
+.search-container__input .ant-input {
+    background-color: transparent;
+    color: white;
+}
+
+.search-container__input .ant-input::placeholder {
+    color: white;
+    opacity: 1;
+}
+
+.search-container__user-info {
+    flex: 2;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.search-container__user-info .anticon {
+    color: white;
+    font-size: 16px;
+    margin-right: 6px;
+}
+
+.search-container__user-info .ant-typography {
+    color: white;
+}
+
+.caller-container {
+    background-color: #f3f2f1;
+    border-bottom: 1px solid #cccccc;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.caller-container .caller-container__bar {
+    min-height: 68px;
+    display: flex;
+    align-items: center;
+}
+
+.caller-container .caller-container__info,
+.caller-container .caller-container__status {
+    flex: 1;
+}
+
+.caller-container .caller-container__info .name {
+    font-size: 16px;
+}
+
+.caller-container .caller-container__info .number {
+    color: #135200;
+}
+
+.caller-container .caller-container__search {
+    flex: 6;
+    display: flex;
+    align-items: center;
+}
+
+.caller-container .caller-container__search .margin-right {
+    margin-right: 15px;
+}
+
+.caller-container .caller-container__dynamic {
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+
+.caller-search-table .ant-table,
+.caller-search-table .ant-table-thead > tr > th {
+    background: transparent;
+}
+
+.caller-search-table .ant-table-tbody > tr > td,
+.caller-search-table .ant-table-thead > tr > th {
+    border-bottom: 1px solid #cccccc;
+}
+
+.caller-search-table .ant-table-tbody > tr.ant-table-row:hover > td {
+    background: #ecebe9;
+}
+
+.caller-container__dynamic .radio-option-boxes {
+    height: 180px;
+    background-color: white;
+    border: 1px dashed #b3b3b3;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    padding: 18px 30px;
+}
+
+.caller-container__dynamic .radio-option-boxes .description {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #434343;
+}
+
+.caller-container__dynamic .radio-option-boxes .question {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #000;
+}
+
+.search-list-line-dnd {
+    border: 1px solid lightskyblue !important;
+}
+
+.caller-search-table
+    > .ant-spin-nested-loading
+    > .ant-spin-container
+    > .ant-table
+    > .ant-table-container
+    > .ant-table-header
+    > table
+    > .ant-table-thead
+    > tr
+    > th {
+    cursor: grab;
+}
+
+.caller-search-table
+    > .ant-spin-nested-loading
+    > .ant-spin-container
+    > .ant-table
+    > .ant-table-container
+    > .ant-table-body
+    > table
+    > .ant-table-tbody
+    > .ant-table-row
+    > .ant-table-selection-column {
+    background: transparent !important;
+}
+
+.caller-search-table
+    > .ant-spin-nested-loading
+    > .ant-spin-container
+    > .ant-table
+    > .ant-table-container
+    > .ant-table-body,
+.ant-table-header {
+    border-top: 1px solid #cccccc;
+}
+
+.caller-search-table
+    > .ant-spin-nested-loading
+    > .ant-spin-container
+    > .ant-table
+    > .ant-table-container
+    > .ant-table-header
+    > table
+    > .ant-table-thead
+    > tr
+    > .ant-table-selection-column {
+    background: transparent !important;
+}
+
+.sub-status-sider {
+    height: 40px;
+    width: 5px;
+    border-radius: 20px;
+    cursor: default !important;
+}
+
+.sub-status-sider-active {
+    background: #73d13d;
+}
+
+.sub-status-sider-cancelled {
+    background: #f5222d;
+}
+
+.sub-status-sider-suspended {
+    background: #fa8c16;
+}
+
+.search-table-col-title {
+    color: #8c8c8c !important;
+    font-size: 13px;
+}
+
+.search-list-tooltip {
+    cursor: pointer;
+}
